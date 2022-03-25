@@ -1,0 +1,7 @@
+#Se inicia motor de re-escritura.
+RewriteEngine On
+# Condiciones si no existe el archivo o el directorio
+RewriteCond %{RESQUET_FILENAME} !-d
+RewriteCond %{RESQUET_FILENAME} !-f
+#Regla de redireccion
+RewriteRule ^(.+)$  index.php?url=$1    [QSA,L] 
