@@ -1,1 +1,1 @@
-# appgestion
+# appgestion es una aplicacion web para el control de indicadores y gestion interna # del departamento de recursos humanos.
