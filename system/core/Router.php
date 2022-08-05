@@ -18,7 +18,7 @@ class Router{
     }
     //Definicion metodos setter y getters
     public function setUri(){
-        $this->uri=explode('/', $_SERVER['REQUEST_URI']);
+        $this->uri=explode('/', URI);
     }
 
     public function setController(){
